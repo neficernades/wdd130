@@ -1,20 +1,21 @@
 @import url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Sahitya&display=swaprel=stylesheet);
 html{
     background-color: aqua;
 }
 :root{
-    --primary-color:#923 ;
-    --secondary-color:#FFFF ;
-    --accent1-color:#10f ;
-    --accent2-color:#3F7 ;
+    --primary-color:#011627 ;
+    --secondary-color:#FF3366 ;
+    --accent1-color:#2EC4B6 ;
+    --accent2-color:#f6f7f8 ;
 
     --heading-foot: Playfair Display, serif;
-    --paragraph-font:Sahitya, serif;
+    --paragraph-font: Sahitya, serif;
 
-    --nav-background-color:#EEEE;
-    --nav-link-color:#DCC;
-    --nav-hover-link-color:#34D6;
-    --nav-hover-background-color:#F367;
+    --nav-background-color:#2EC4B6;
+    --nav-link-color:#FF3366;
+    --nav-hover-link-color:#011627;
+    --nav-hover-background-color:#f6f7f8;
 }
 body{
     font-family: var(--paragraph-font);
