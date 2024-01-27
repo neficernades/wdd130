@@ -42,12 +42,15 @@ aside {
     position: relative;
     clear: both;
 }
-
+aside.box{
+    width: 20em;
+    margin: 1em;
+}
 aside img {
     width: 200px;
     height: auto;
 }
-.box{
+ul.box{
     margin: 1rem;
     border: 1px;
     padding: 1rem;
