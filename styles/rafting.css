@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Sahitya&display=swaprel=stylesheet);
+:root{
+    --primary-color:#011627 ;
+    --secondary-color:#FF3366 ;
+    --accent1-color:#2EC4B6 ;
+    --accent2-color:#f6f7f8 ;
+
+    --heading-foot: Playfair Display, serif;
+    --paragraph-font: Sahitya, serif;
+
+    --nav-background-color:#2EC4B6;
+    --nav-link-color:#FF3366;
+    --nav-hover-link-color:#011627;
+    --nav-hover-background-color:#f6f7f8;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+article{
+    position:absolute;
+}
+article img{
+    width: 20em;
+    height: auto; 
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px #ffffff;
+    float:right;
+    position: absolute;
+}
+h1{
+    font-family: var(--secondary-color);
+    color:var(--primary-color);
+    position:absolute
+}
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 0px;
+    position: absolute;
+}
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a{
+    display:block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+section{
+    width: 20em;
+    background-color: #ffff;
+    color: #333;
+    text-align: left;
+
+    clear: both;
+}
+section img{
+    width: 20em;
+    height: auto; 
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px #ffffff;
+    clear: both;
+}
