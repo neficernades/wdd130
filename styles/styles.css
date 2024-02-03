@@ -42,6 +42,7 @@ nav a{
 }
 h1{
     color:steelblue;
+    border-bottom: 2px solid steelblue;
 }
 .box{
     margin: 1rem;
@@ -80,7 +81,6 @@ h2{
     margin-inline-end: 0px;
     font-weight: bold;
     display: block;
-    border-bottom: 2px solid steelblue;
     color: steelblue;
 
 }
