@@ -42,22 +42,29 @@ h1{
     position:absolute;
     text-align: center;
 }
+
 header{
     padding: 20px;
     background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 38% 52%;
+    justify-content: space-evenly;
+}
+header div img{
+    float: right;
 }
 p{
     padding: 0px;
     position: absolute;
     text-align: center;
 }
-nav{
+header nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
-
+    align-items: center;
 }
-nav a{
+header nav a{
     display:block;
     color: var(--nav-link-color);
     text-decoration: none;
@@ -67,9 +74,8 @@ section{
     width: 20em;
     background-color: #ffff;
     color: #333;
-    text-align: left;
-
-    clear: both;
+    margin-top: 38em;
+    justify-content: space-evenly;
 }
 section img{
     width: 20em;
@@ -79,8 +85,15 @@ section img{
     box-shadow: 0 0 30px #ffffff;
     clear: both;
 }
-footer nav {
-    margin-top: 1px;
+footer{
+    padding: 1rem; 
+    margin:0 auto;
     border-top: 1px solid #000;
     text-align: center;
 }
+footer nav {
+    margin-top: 1px;
+    float: right;
+}
+
+
