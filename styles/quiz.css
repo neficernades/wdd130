@@ -61,3 +61,13 @@ button{
 button:hover{
   background-color: darkgrey;
 }
+footer{
+  margin: 1rem auto 0;
+  width: 650px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+  border-top: 1px solid #ccc;
+
+
+}
