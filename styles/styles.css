@@ -41,8 +41,15 @@ nav a{
     display: block;
 }
 h1{
-    color:steelblue;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    display: block;
     border-bottom: 2px solid steelblue;
+    color: steelblue;
 }
 .box{
     margin: 1rem;
@@ -56,14 +63,15 @@ aside img {
     height: auto;
 }
 ul.box{
-    width: 425px;
+    width: 265px;
     margin: 1rem;
     border: 1px;
     padding: 1rem;
     background-color: #ddd;
     color: #000;
     position: relative;
-    left: 390px;
+    left: 340px;
+    top: -150px;
 
 }
 nav{
@@ -75,13 +83,9 @@ nav{
 }
 h2{
     font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
     display: block;
-    color: steelblue;
+    color: black;
 
 }
 aside h2{
