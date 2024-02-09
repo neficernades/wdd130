@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Class selectors */
 html{
     background-color: white;
 }
