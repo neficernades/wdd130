@@ -13,14 +13,58 @@
     --nav-hover-link-color:#011627;
     --nav-hover-background-color:#f6f7f8;
 }
+.navigation {
+	display: flex;
+	list-style: none;
+    width: 60%;
+}
+.title h1{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:0px;
+}
+.box{
+    margin: 1rem;
+    background-color: #eee;
+    color: #561f1f;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    padding: 1rem;
+}
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+    background-color: var(--nav-background-color);
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.logo img {
+	width: 120px;
+	height: auto;
+    float: right;
+}
 .hero{
-    position: relative;
     width: 100%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .hero img{
-    display: block;
-    width: 100%;
+    position: relative;
+    width: 50em;
     height: auto;
 }
 article{
@@ -41,16 +85,14 @@ h1{
     position:absolute;
     text-align: center;
 }
-
 header{
-    padding: 20px;
     background-color: var(--accent1-color);
+    margin: 1rem auto;
     display: grid;
-    grid-template-columns: 38% 52%;
-    justify-content: space-evenly;
-}
-header div img{
-    float: right;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 10000px;
 }
 p{
     padding: 0px;
@@ -58,31 +100,32 @@ p{
     text-align: center;
 }
 header nav{
-    background-color: var(--nav-background-color);
+
     font-size: 1.2rem;
     display: flex;
     align-items: center;
 }
-header nav a{
-    display:block;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 1rem;
-}
-section{
-    width: 20em;
+
+.history{
+    width: 100em;
     background-color: #ffff;
     color: #333;
-    margin-top: 38em;
-    justify-content: space-evenly;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
 }
-section img{
-    width: 20em;
-    height: auto; 
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px #ffffff;
-    clear: both;
+.history img{
+    max-width: 20%;
+}
+
+.adventure{
+    display: flex;
+}
+.adventure h2{
+    display:none
+}
+h2{
+    text-align: center;
 }
 footer{
     padding: 1rem; 
@@ -94,5 +137,24 @@ footer nav {
     margin-top: 1px;
     float: right;
 }
+.grid-container {
+    display: flex;
+    flex: row;
+    grid-template-columns: repeat(1fr); /* Dos columnas de igual tamaño */
+    gap: 1px; /* Espacio entre las imágenes */
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid #ccc; /* Borde para cada imagen */
+}
 
+.grid-container img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px #ffffff; /* Permite que las imágenes mantengan su proporción de aspecto */
+}
 
