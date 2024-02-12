@@ -138,9 +138,8 @@ footer nav {
     float: right;
 }
 .grid-container {
-    display: flex;
-    flex: row;
-    grid-template-columns: repeat(1fr); /* Dos columnas de igual tamaño */
+    display: grid;
+    grid-template-columns: 1fr; /* Dos columnas de igual tamaño */
     gap: 1px; /* Espacio entre las imágenes */
 }
 .item {
