@@ -18,6 +18,9 @@
 	list-style: none;
     width: 60%;
 }
+.map{
+    top: 10000px
+}
 .title h1{
     text-align: center;
 }
@@ -32,6 +35,10 @@
     color: #561f1f;
     border: 1px solid rgba(0, 0, 0, 0.2); 
     padding: 1rem;
+}
+.title h1{
+    position: relative;
+    text-align: left;
 }
 .navigation li {
 	flex: 1 1 100%;
