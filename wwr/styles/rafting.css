@@ -44,6 +44,39 @@
     box-sizing: border-box;
     border: 0px solid #000;
 }
+.call-to-action {
+  text-align: center;
+  padding: 50px;
+}
+
+.col h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+.three{
+    width: 50%;
+}
+
+.col p {
+  font-size: 1em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
 table {
     width: 100%;
     border-collapse: collapse;
@@ -105,7 +138,12 @@ tbody tr:hover {
 .navigation li {
 	flex: 1 1 100%;
 }
-
+.trip{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 200px;
+}
 .navigation a {
 	display: block;
     background-color: var(--nav-background-color);
