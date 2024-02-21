@@ -99,14 +99,14 @@ button{
 table {
     width: 100%;
     border-collapse: collapse;
-    color: #011627;
+    color: #580505;
 }
 
 caption {
     font-weight: bold;
     font-size: 1.2em;
     margin-bottom: 10px;
-    color: #ccc;
+    color: #580505;
 }
 
 th, td {
@@ -333,7 +333,6 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    color: #ccc;
     padding: 0;
 }
 .containergrid {
