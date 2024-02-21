@@ -3,45 +3,113 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Nefi Cernades | WDD 130</title>
+        <title>Rafting Paradise | Contact Us</title>
         <meta name="description" content="Nefi Cernades's BYU Idaho 130 courses home page">
         <meta name="author" content="Nefi Cernades">
-        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/rafting.css">
     </head>
     <body>
         <header>
+            <div class="logo">
+                <img src="images/logo.png" alt="Rafting Site Logo" >
+            </div>
             <nav>
-                <a href="wwr/about.html">Home</a>
-                <a href="wwr/">Rafting Site</a>
-                <a href="wwr/site-plan-rafting.html">Rafting Site Plan</a>
-                <a href="https://linkedin.com">Linkedin</a>
-                <a href="https://facebook.com">Facebook</a>
+                <ul class="navigation"> 
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
             </nav>
         </header>
-        <div class="grid">
-            <main>
-                <h1>Nefi Cernades | WDD 130</h1>
-                <img src="images/profile.jpg" alt="Hello! My name is Nefi Cernades">
-                <p>Hello! My name is Nefi Cernades and I am from Lima, Perú. I enjoy play soccer and learn about creating codes for video games. I want to get degrees at my university (BYU-Idaho) and work for big companies or start my own.</p>
-                <ul class="box">
-                    <li><a href="https://files.mormonsud.org/wp-content/uploads/2019/11/167.jpg">Temple Houston,EEUU</a></li>
-                    <li><a href="https://churchofjesuschristtemples.org/hamilton-new-zealand-temple/">Temple Hamilton,New Zealand</a></li>
-                    <li><a href="https://www.churchofjesuschrist.org/temples/details/kyiv-ukraine-temple?lang=eng">Temple Kyiv,Ukraine</a></li>
-                </ul>
-            </main>
-            <aside class="box">
-                <h2>Lima, Peru</h2>
-                <img src="images/lima.jpg" alt="Lima" width="200">
-                <p>Lima is the capital and largest city of Peru, located on the central coast of the country on the shores of the Pacific Ocean.
-                It is a vibrant and diverse city that combines the richness of its history with the modernity of urban life.</p>
-                <p>This is a list of my favorite temples:</p>
-            </aside>
-            
-        </div>
+        <main>
+            <div class="containergrid">
+                <div class="part part1">
+                    <div class="title">
+                        <h1>Welcome to Rafting Paradise</h1>
+                    </div>
+                </div>
+                <div class="part part2">
+                    <h2>Trips</h2>
+                    <p>Browse our travel and booking catalogue, so you can plan and enjoy your adventure with us!</p>
+                    <a href="trips.html">CLICK HERE!</a>
+                    <img src="images/trips.jpg" alt="trips" width="350">
+                </div>
+                <div class="part part3">
+                    <h2>Purpose</h2>
+                    <p>The purpose of our rafting company is to provide unforgettable and safe experiences in nature, promoting the
+                        connection with the natural environment and fostering the spirit of adventure in our clients. We are committed to providing exciting rafting excursions that respect the environment and benefit local communities. In addition, we seek to inspire a deep appreciation for rivers and natural areas, educating our clients about the importance of conserving these precious resources for future generations. In short, our purpose is to create lasting memories, promote a love of nature and contribute to the well-being of local communities through our rafting activities.</p>
+                </div>
+                <div class="part part4">
+                    <h2>Subscription Form</h2>
+                    <form>
+                        <label for="q1">First Name:</label><br>
+                        <input type="text" id="q1" name="q1"><br>
+                        <label for="q2">Email address:</label><br>
+                        <input type="text" id="q2" name="q2"><br>
+                    </form>
+                    <p>Subscription Time</p><br>
+                    <form>
+                        <input type="radio" id="1-month" name="1-month" value="1-month">                         
+                        <label for="1-month">1 month</label><br>   
+                        <input type="radio" id="2-month" name="2-month" value="2-month">                            
+                        <label for="2-month">2 month</label><br>   
+                        <input type="radio" id="3-month" name="3-month" value="3-month">                            
+                        <label for="3-month">3 month</label><br>
+                    </form>    
+                        <a>Subscription type:<a><br>
+                    <form>
+                        <input type="radio" id="Basic" name="Basic" value="Basic">                            
+                        <label for="Basic">Basic</label><br>   
+                        <input type="radio" id="Premium" name="Premium" value="Premium">                            
+                        <label for="Premium">Premium</label><br>     
+                        <label for="q6">Card number:</label><br>
+                        <input type="text" id="q6" name="q6"><br>
+                        <br><button type="submit" onclick="alert('Thanks for join us!')">Subscribe</button>
+                    </form>
+                </div>
+                <div class="part part5">
+                    <table>
+                        <caption>
+                            Subscription costs
+                        </caption>
+                        <tr>
+                            <th></th>
+                            <th>Basic</th>
+                            <th>Premium</th>
+                        </tr>
+                        <tr>
+                            <td>1 month</td>
+                            <td>$10</td>
+                            <td>$20</td>
+                        </tr>
+                        <tr>
+                            <td>2 months</td>
+                            <td>$18</td>
+                            <td>$35</td>
+                        </tr>
+                        <tr>
+                            <td>3 months</td>
+                            <td>$25</td>
+                            <td>$50</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </main>
         <footer>
-            <p>@2024 / Nefi Cernades  /  Lima, Peru /  gmail: neficernades@gmail.com</p>
+            <p>@2024/Rafting paradise/Nefi Cernades</p>
+            <nav class="sociallinks">
+                <a href="https://facebook.com">
+                    <img src="images/facebook.svg" alt="Facebook" width="40">
+                </a>
+                <a href="https://twitter.com/">
+                    <img src="images/twitter.svg" alt="Twitter" width="40">
+                </a>
+                <a href="https://instagram.com/">
+                    <img src="images/instagram.svg" alt="Instagram" width="40">
+                </a>
+            </nav>
         </footer>
     </body>
-    <!--last edited: 21/01/2022-->
 </html>
-
