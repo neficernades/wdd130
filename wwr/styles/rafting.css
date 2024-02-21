@@ -367,6 +367,7 @@ Naranja: #ff7f0e */
   grid-column: 2 / span 1;
   grid-row: 1 / span 1;
   background-color: #5bc0de;
+  color: #001f3f;
 }
 .part2 img{
     position: relative;
@@ -381,13 +382,15 @@ Naranja: #ff7f0e */
 .part4 {
   grid-column: 1 / span 1;
   grid-row: 3 / span 1;
-  background-color: #f0ad4e;
+  background-color: #6B3200;
+  color: #FFFFFF;
 }
 
 .part5 {
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
-  background-color: #ff7f0e ;
+  background-color: #0DFF00;
+  color: #580505;
 }
 
 .trip{
