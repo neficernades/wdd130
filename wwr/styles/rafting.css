@@ -80,6 +80,7 @@ button{
   font-size: 1em;
   margin-bottom: 20px;
   text-align: left;
+  color: white;
 }
 
 .btn {
@@ -291,20 +292,12 @@ h2{
 }
 
 footer {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
-    align-items: center;
-    font-weight: bold;
-}
-
-footer .sociallinks img {
-    height: 30px;
-    width: auto;
-}
-.sociallinks img{
-    float: right;
-    border: 0;
+    display: grid;
+    grid-template-columns: auto 160px;
+    padding: 1rem;
+    align-items:center;
+    text-align: center;
+    color: whitesmoke;
 }
 .grid-container {
     display: flex;
